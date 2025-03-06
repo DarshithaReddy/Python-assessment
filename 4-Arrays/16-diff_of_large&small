@@ -1,0 +1,8 @@
+def get_user_array():
+    return list(map(int, input("Enter numbers separated by space: ").split()))
+
+def difference_min_max(arr):
+    return max(arr) - min(arr)
+
+arr = get_user_array()
+print("Difference between largest and smallest:", difference_min_max(arr))

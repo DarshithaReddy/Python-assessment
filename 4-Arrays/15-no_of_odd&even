@@ -1,0 +1,10 @@
+arr = [2,5,3,7,8,9,12,56,19]
+even_num =0
+odd_num =0
+for i in arr:
+    if i % 2 == 0:
+        even_num += 1
+    else:
+        odd_num += 1
+print(" Toatal Even numbers are: ",even_num)
+print(" Toatal Odd numbers are: ",odd_num)
